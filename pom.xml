@@ -28,6 +28,18 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
+  
+  <distributionManagement>
+		 <snapshotRepository>
+		    <id>nexusRepo</id>
+		    <url>http://34.221.49.202:8081/repository/sample-snapshot/</url>
+		 </snapshotRepository>
+		
+		<repository>
+		    <id>nexusRepo</id>
+		    <url>http://34.221.49.202:8081/repository/sample-releases/</url>
+		</repository>
+  	</distributionManagement>
 
   <build>
     <finalName>oneplus</finalName>
